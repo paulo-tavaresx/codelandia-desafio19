@@ -1,5 +1,6 @@
 import { Sora } from 'next/font/google'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 type Props = {}
@@ -16,7 +17,12 @@ export default function HomeSections({}: Props) {
           <span>é tudo que você</span>
           <span>precisa em um só lugar.</span>
         </h1>
-        <button>Cadastrar-se</button>
+        <Link
+          href="/"
+          className="text-sm font-semibold md:text-xl py-2 md:py-3 px-7 md:px-9 rounded-[3.125rem] bg-[#0F9AFE] text-white"
+        >
+          Cadastrar-se
+        </Link>
       </div>
       <div className="relative w-[13.125rem] md:w-[31.25rem] h-[11.4375rem] md:h-[31.25rem] self-center">
         <Image src="/imageHome.png" fill alt="image description" />
