@@ -1,5 +1,6 @@
 import HomeSections from '@/components/Home'
 import UsApps from '@/components/UsApps'
+import UsPlans from '@/components/UsPlans'
 import Works from '@/components/Works'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeSections />
       <Works />
       <UsApps />
+      <UsPlans />
     </main>
   )
 }
