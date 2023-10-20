@@ -1,3 +1,4 @@
+import ContactUs from '@/components/ContactUs'
 import HomeSections from '@/components/Home'
 import UsApps from '@/components/UsApps'
 import UsPlans from '@/components/UsPlans'
@@ -10,6 +11,7 @@ export default function Home() {
       <Works />
       <UsApps />
       <UsPlans />
+      <ContactUs />
     </main>
   )
 }
