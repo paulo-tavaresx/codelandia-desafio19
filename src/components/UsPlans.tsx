@@ -37,8 +37,8 @@ export default function UsPlans({}: Props) {
             <span className="text-2xl self-end">/mês</span>
           </h4>
           <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-64 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lacinia mi quis euismod ultrices.
+            Lorem ipsum dolor sit gi, consectetur adipiscing elit. Donec lacinia
+            mi quis euismod ultrices.
           </p>
           <Link
             href="/"
