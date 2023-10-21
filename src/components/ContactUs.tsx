@@ -12,7 +12,7 @@ export default function ContactUs({}: Props) {
           >
             Contato
           </h2>
-          <p className=" md:w-[33rem] w-[19.5rem] text-sm text-lg text-[#DBDBDB] text-center ">
+          <p className=" md:w-[33rem] w-[19.5rem] text-sm md:text-lg text-[#DBDBDB] text-center ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             lacinia mi quis euismod ultrices.
           </p>
@@ -23,7 +23,10 @@ export default function ContactUs({}: Props) {
             className="bg-transparent border-opacity-0  text-white outline-none border-b-white"
             placeholder="Seu melhor e-mail"
           />
-          <button type="submit" ckl>
+          <button
+            type="submit"
+            className="bg-[#0F9AFE] text-white px-8 py-2 rounded-full"
+          >
             Enviar
           </button>
         </form>
