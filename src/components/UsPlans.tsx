@@ -26,7 +26,7 @@ export default function UsPlans({}: Props) {
         <li className="pb-7 lg:pb-16 even:bg-[#293145] bg-[#EFF8FF] group text-[#293145] even:text-white w-[19.5rem] lg:w-[23.125rem] h-[25rem] lg:h-[29.375rem] rounded-lg justify-end flex flex-col items-center">
           <span className="flex flex-col gap-3 items-center mb-8 group-even:mb-6 lg:group-even:mb-8 lg:mb-14">
             <h3
-              className={`${sora.className} lg:group-even:text-3xl text-2xl font-semibold`}
+              className={`${sora.className} lg:group-even:text-3xl text-2xl leading-normal font-semibold`}
             >
               Bronze
             </h3>
@@ -36,7 +36,7 @@ export default function UsPlans({}: Props) {
             <strong className="text-5xl">28</strong>
             <span className="text-2xl self-end">/mês</span>
           </h4>
-          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-64 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
+          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-72 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             lacinia mi quis euismod ultrices.
           </p>
@@ -50,7 +50,7 @@ export default function UsPlans({}: Props) {
         <li className="pb-7 lg:pb-16 even:bg-[#293145] bg-[#EFF8FF] group text-[#293145] even:text-white w-[19.5rem] lg:w-[23.125rem] h-[25rem] lg:h-[29.375rem] rounded-lg justify-end flex flex-col items-center">
           <span className="flex flex-col gap-3 items-center mb-8 group-even:mb-6 lg:group-even:mb-8 lg:mb-14">
             <h3
-              className={`${sora.className} lg:group-even:text-3xl text-2xl font-semibold`}
+              className={`${sora.className} lg:group-even:text-3xl text-2xl  leading-normal font-semibold`}
             >
               Prata
             </h3>
@@ -63,7 +63,7 @@ export default function UsPlans({}: Props) {
             <strong className="text-5xl">57</strong>
             <span className="text-2xl self-end">/mês</span>
           </h4>
-          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-64 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
+          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-72 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             lacinia mi quis euismod ultrices.
           </p>
@@ -77,7 +77,7 @@ export default function UsPlans({}: Props) {
         <li className="pb-7 lg:pb-16 even:bg-[#293145] bg-[#EFF8FF] group text-[#293145] even:text-white w-[19.5rem] lg:w-[23.125rem] h-[25rem] lg:h-[29.375rem] rounded-lg justify-end flex flex-col items-center ">
           <span className="flex flex-col gap-3 items-center mb-8 group-even:mb-6 lg:group-even:mb-8 lg:mb-14">
             <h3
-              className={`${sora.className} lg:group-even:text-3xl text-2xl font-semibold `}
+              className={`${sora.className} lg:group-even:text-3xl text-2xl  leading-normal font-semibold `}
             >
               Ouro
             </h3>
@@ -88,7 +88,7 @@ export default function UsPlans({}: Props) {
             <strong className="text-5xl">94</strong>
             <span className="text-2xl self-end">/mês</span>
           </h4>
-          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-64 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
+          <p className="text-[#6E7275] group-even:text-[#DBDBDB] text-center w-72 lg:w-[18.75rem] lg:text-lg text-base mb-12 lg:mb-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             lacinia mi quis euismod ultrices.
           </p>
