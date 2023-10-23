@@ -8,7 +8,7 @@ const sora = Sora({ weight: '600', subsets: ['latin'] })
 
 export default function HomeSections({}: Props) {
   return (
-    <section className="bg-[#EFF8FF] px-6 pt-10 md:items-center lg:py-[4.375rem] lg:px-[8.5rem] flex flex-col sm:flex-row justify-between w-full">
+    <section className="bg-[#EFF8FF] px-6 pt-10 md:items-center md:py-[4.375rem] md:px-[8.5rem] flex flex-col sm:flex-row justify-between w-full">
       <div className="flex flex-col md:gap-12 gap-4 items-start">
         <h1
           className={`${sora.className} text-2xl lg:text-5xl font-semibold text-[#293145] lg:max-w-[35.875rem] max-w-[17.9375rem]: flex  object-cover flex-col`}
